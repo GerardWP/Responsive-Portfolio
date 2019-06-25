@@ -76,7 +76,7 @@ header {
     border: 1px solid #ccc;
 }
 
-.body-content #profile-pic {
+#profile-pic {
     max-width: 200px;
     height: auto;
     float: left;
@@ -126,9 +126,10 @@ label {
 }
 
 
-.portfolio-img * {
+.portfolio-img div {
     display: inline-block;
     position: relative;
+    margin: 0px 20px 20px 0px;
 }
 
 
@@ -148,6 +149,44 @@ label {
     width: 100%;
 }
 
-.portfolio-img div {
-    margin: 0px 20px 20px 0px;
+@media(max-width: 768px) {
+
+    .portfolio-img {
+        text-align: center;
+    }
+
+    .portfolio-img div img {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 640px) {
+
+    .header-content {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .header-content h1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-links {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .body-content {
+        max-width: 100%;
+    }
+
+    #profile-pic {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        margin: 0px 0px 10px 0px;
+        border-radius: 4px;
+    }
 }
