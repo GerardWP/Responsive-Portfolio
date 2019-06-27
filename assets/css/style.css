@@ -39,7 +39,7 @@ p {
   color: #4aaaa5;
   border-bottom: 3px solid #ddd;
   margin-bottom: 30px;
-  padding: 0px 0px 30px;
+  padding: 0 0 30px;
 }
 
 header {
@@ -59,7 +59,7 @@ header {
 
 .header-content a {
   text-decoration: none;
-  margin: 0px 20px;
+  margin: 0 20px;
   transition-duration: 175ms;
   color: #777;
 }
@@ -69,7 +69,7 @@ header {
 }
 
 .header-content div> :last-child {
-  margin: 0px 0px 0px 20px;
+  margin: 0 0 0 20px;
 }
 
 .main-content {
@@ -90,7 +90,7 @@ header {
   max-width: 250px;
   height: auto;
   float: left;
-  margin: 0px 15px 0px 0px;
+  margin: 0 15px 0 0;
 }
 
 footer {
@@ -98,7 +98,7 @@ footer {
   background-color: #666;
   color: #ccc;
   text-align: center;
-  padding: 40px 0px 10px;
+  padding: 40px 0 10px;
   font-size: 0.85em;
   border-top: 7px solid #4aaaa5;
 }
@@ -122,7 +122,7 @@ textarea {
 label {
   display: block;
   color: #777;
-  margin: 15px 0px 3px;
+  margin: 15px 0 3px;
 }
 
 #submit-btn {
@@ -137,7 +137,7 @@ label {
 .portfolio-img div {
   display: inline-block;
   position: relative;
-  margin: 0px 20px 20px 0px;
+  margin: 0 20px 20px 0;
 }
 
 .portfolio-img div img {
@@ -201,7 +201,7 @@ label {
     max-width: 100%;
     height: auto;
     float: none;
-    margin: 0px 0px 10px 0px;
+    margin: 0 0 10px 0;
     border-radius: 4px;
   }
 }
